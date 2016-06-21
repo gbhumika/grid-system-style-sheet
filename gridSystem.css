@@ -4,10 +4,12 @@
 div{
 border: 2px;
 color: black;
+/*border-style: dashed;*/
 }
 .row,
 .column {
     box-sizing: border-box;
+    /*border-style: dotted;*/
 }
 
 .row:before,
@@ -28,55 +30,80 @@ color: black;
 
 .column + .column {
     margin-left: 1.6%;
+
 }
 
 .column-1 {
     width: 6.86666666667%;
+    box-sizing: border-box;
+    border-style: dotted;
 }
 
 .column-2 {
     width: 15.3333333333%;
+    box-sizing: border-box;
+    border-style: dotted;
 }
 
 .column-3 {
     width: 23.8%;
+    box-sizing: border-box;
+    border-style: dotted;
 }
 
 .column-4 {
     width: 32.2666666667%;
+    box-sizing: border-box;
+    border-style: dotted;
 }
 
 .column-5 {
     width: 40.7333333333%;
+    box-sizing: border-box;
+    border-style: dotted;
 }
 
 .column-6 {
     width: 49.2%;
+    box-sizing: border-box;
+    border-style: dotted;
 }
 
 .column-7 {
     width: 57.6666666667%;
+    box-sizing: border-box;
+    border-style: dotted;
 }
 
 .column-8 {
     width: 66.1333333333%;
+    box-sizing: border-box;
+    border-style: dotted;
 }
 
 .column-9 {
     width: 74.6%;
+    box-sizing: border-box;
+    border-style: dotted;
 }
 
 .column-10 {
     width: 83.0666666667%;
+    box-sizing: border-box;
+    border-style: dotted;
 }
 
 .column-11 {
     width: 91.5333333333%;
+    box-sizing: border-box;
+    border-style: dotted;
 }
 
 .column-12 {
     width: 100%;
     margin-left: 0;
+    box-sizing: border-box;
+    border-style: dotted;
 }
 
 @media only screen and (max-width: 550px) {
@@ -94,6 +121,7 @@ color: black;
     .column-12 {
         float: none;
         width: auto;
+
     }
 
     .column + .column {
